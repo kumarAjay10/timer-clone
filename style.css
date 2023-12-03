@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #1D1D23;
+    color: white;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    height: 7vh;
+    width : 40vw;
+    background-color: #34344A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#para{
+    font-weight: 800;
+}
+.container>.inputContainer>label>input{
+    border: none;
+    width: 4vw;
+    outline: none;
+    color:white;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+
+    /* background-color: #079309; */
+}
+.container>.inputContainer>label{
+    font-weight: 800;
+    width: 5vw;
+    /* background-color: #079309; */
+    text-align: center;
+}
+
+#startTimer ,.stop-button {
+    background: #F0F757;
+    border: none;
+    color: black ;
+    font-size: 18px;
+    padding: 5px  70px;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 5vh;
+}
+.delete-button{
+    background-color: #34344A;
+    border: none;
+    color: white ;
+    font-size: 18px;
+    padding: 5px  55px;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+#startTimer:hover, .stop-button:hover{
+    background:#f4fe42;
+}
+.delete-button:hover
+{
+    background-color: #4b4b68;
+}
+#para{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.heading{
+    background-color: #39393E;
+    color: white;
+    width: 19vw;
+    margin: 25px auto;
+    padding:1px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timer-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    
+    height: 7vh;
+    width : 40vw;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #34344A;
+}
+
+.timer {
+    font-size: 24px;
+}
+
+.timer-ended {
+    color: black;
+    background-color: #f4fe42;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-top: ;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.stop-button {
+    /* background-color: red;
+    color: white; */
+    border-radius: 100px;
+}
+
+/* .stop-button:hover {
+    background:#079309;
+} */
+
+.delete-button {
+  border-radius: 100px;
+}
+
+/* .delete-button:hover {
+    background:#079309;
+} */
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
+@media screen and (max-width:350px){
+ .container{
+    height: auto;
+    width : auto;
+    background-color: #34344A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    /* padding: 20px; */
+    /* border-radius: 20px; */
+  }
+ #para{
+    font-weight: 300;
+}
+.container>.inputContainer>label>input{
+    border: none;
+    width: 30vw;
+    outline: none;
+    color:white;
+    font-size: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+
+    background-color: #079309;
+}
+.container>.inputContainer>label{
+    font-weight: 400;
+    width: 3vw;
+    /* background-color: #079309; */
+    text-align: center;
+}
+
+}
